@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Master AI + Sosmed Preneur — Viral, Panen Cuan, Kerja Dibantu Robot AI
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/master-ai/style.css" />
+  </head>
+  <body>
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- URGENCY BAR -->
+    <div class="urgency-bar">
+      🤖 AI udah gantiin kerja orang — pastiin lu nggak ketinggalan! Promo
+      berakhir <b id="bar-timer">00:00:00</b>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+      <div>
+        <a href="/index.html" class="back-link">← Semua Produk</a>
+      </div>
+      <div class="nav-right">
+        <div class="nav-price">Rp 149.000</div>
+        <a href="#beli" class="nav-btn">🚀 Beli Sekarang</a>
+      </div>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero">
+      <div class="hero-dots"></div>
+      <div class="hero-glow hg1"></div>
+      <div class="hero-glow hg2"></div>
+      <div class="hero-glow hg3"></div>
+
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <div class="blink-dot"></div>
+          2 File Senjata Pamungkas · AI + Sosmed
+        </div>
+        <h1>
+          Viral, Panen Cuan,<br />
+          <span class="grad-text">Kerja Digantiin Robot</span>
+          <span class="line2"
+            >Dari konten otomatis sampai balas DM — AI yang ngerjain.</span
+          >
+        </h1>
+        <p class="hero-desc">
+          Dua file yang ngubah cara kamu kerja selamanya. File pertama bikin
+          kamu jadi
+          <strong style="color: white">Master Konten & Jualan</strong>. File
+          kedua kasih kamu
+          <strong style="color: white">pasukan AI pribadi</strong> yang riset,
+          desain, dan balas chat pelanggan otomatis 24/7.
+        </p>
+        <div class="hero-price-row">
+          <div class="hero-old">Rp 499.000</div>
+          <div class="hero-new">Rp 149.000</div>
+          <div class="hero-save">Hemat 73%</div>
+        </div>
+        <div class="hero-cta-wrap">
+          <a href="#beli" class="btn-hero"
+            >🤖 Mau Dibantu AI? Ambil Sekarang →</a
+          >
+          <div class="hero-note">
+            ✓ Akses instan · ✓ Tutorial praktis · ✓ Garansi 30 hari
+          </div>
+        </div>
+        <div class="hero-proof">
+          <div class="h-avs">
+            <div class="h-av" style="background: #7b2fff">AR</div>
+            <div class="h-av" style="background: #9b5fff">FD</div>
+            <div class="h-av" style="background: #6020cc">NR</div>
+            <div class="h-av" style="background: #ff5c00">+</div>
+          </div>
+          <div>
+            <div class="h-stars">★★★★★</div>
+            <div class="h-proof-txt">
+              <strong>3.600+ pembeli</strong> sudah pakai AI untuk bisnis mereka
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="dual-books">
+          <!-- Floating badges -->
+          <div class="hfb fb1">
+            <div class="fb-icon">🤖</div>
+            <div>
+              <div class="fb-val">Auto Closing</div>
+              <div class="fb-lbl">DM 24/7</div>
+            </div>
+          </div>
+          <div class="hfb fb2">
+            <div class="fb-icon">🎬</div>
+            <div>
+              <div class="fb-val">Konten</div>
+              <div class="fb-lbl">Otomatis AI</div>
+            </div>
+          </div>
+          <div class="hfb fb3">
+            <div class="fb-icon">🔥</div>
+            <div>
+              <div class="fb-val">Viral</div>
+              <div class="fb-lbl">Formula ACE 2025</div>
+            </div>
+          </div>
+
+          <!-- Book 1: Sosmedpreneur — ganti dengan: <img src="cover-sosmedpreneur.jpg" class="book-cover book1"> -->
+          <div class="book-cover bc-purple book1">
+            <div class="bc-icon">📱</div>
+            <div class="bc-title">Sosmedpreneur</div>
+            <div class="bc-sub">Blueprint dari Content Berujung Cuan</div>
+          </div>
+          <!-- Book 2: Unlock AI — ganti dengan: <img src="cover-unlock-ai.jpg" class="book-cover book2"> -->
+          <div class="book-cover bc-orange book2">
+            <div class="bc-icon">🤖</div>
+            <div class="bc-title">Unlock AI For Creators</div>
+            <div class="bc-sub">Cheat Code Kerja 10x Lebih Cepat</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PROBLEM ═══ -->
+    <section class="problem">
+      <div class="center section-label reveal">Masih Ngalamin Ini?</div>
+      <h2 class="section-h2 center reveal">
+        Kenapa Creator & Pebisnis Online<br />Stuck di Tempat
+      </h2>
+      <div class="problem-grid">
+        <div class="problem-card reveal">
+          <h4>Bingung mau posting apa 😩</h4>
+          <p>
+            Tiap hari scroll For You Page tapi nggak tau mau bikin konten apa.
+            Ide kosong, deadline mendekat.
+          </p>
+        </div>
+        <div class="problem-card reveal">
+          <h4>Konten bagus tapi sepi views 📉</h4>
+          <p>
+            Udah capek-capek bikin konten, tapi views segitu-gitu aja. Nggak
+            ngerti gimana cara kerja algoritmanya.
+          </p>
+        </div>
+        <div class="problem-card reveal">
+          <h4>Jualan tapi nggak ada yang beli 🛒</h4>
+          <p>
+            Punya produk tapi nggak bisa convert followers jadi pembeli. Nggak
+            tau gimana cara soft selling yang bener.
+          </p>
+        </div>
+        <div class="problem-card reveal">
+          <h4>Kewalahan balas DM & komentar 😵</h4>
+          <p>
+            Mau scale bisnis tapi sendirian nggak sanggup balas semua pesan
+            calon pelanggan. Butuh tim tapi modal belum ada.
+          </p>
+        </div>
+      </div>
+      <div class="problem-arrow reveal">👇</div>
+    </section>
+
+    <!-- SOLUTION BANNER -->
+    <div class="solution-banner reveal">
+      <h2>Dua File Ini Selesaikan<br />Semua Masalah Itu Sekaligus</h2>
+      <p>
+        Konten otomatis. Strategi viral. Toko jalan sendiri. AI yang balas chat.
+        Kamu tinggal nikmatin hasilnya. 🚀
+      </p>
+    </div>
+
+    <!-- ═══ FILES ═══ -->
+    <section class="files-section" id="isi">
+      <div class="inside-intro reveal">
+        <div class="section-label center">Isi Produk</div>
+        <h2 class="section-h2">
+          2 "Senjata Pamungkas"<br />yang Bakal Kamu Dapetin
+        </h2>
+        <p class="section-sub center">
+          File pertama ngajarin strategi konten & jualan. File kedua kasih kamu
+          armada AI yang kerja buat kamu 24/7.
+        </p>
+      </div>
+      <div class="files-list">
+        <!-- FILE 1: SOSMEDPRENEUR -->
+        <div class="file-card feat reveal">
+          <div class="file-visual fv-purple">
+            <!-- Ganti: <img src="cover-sosmedpreneur.jpg" style="width:100%;height:100%;object-fit:cover"> -->
+            <div class="fv-num">File 01</div>
+            <div class="fv-icon">📱</div>
+            <div class="fv-title">Sosmedpreneur</div>
+          </div>
+          <div class="file-info">
+            <div class="file-num-badge">
+              Blueprint Utama · 78 Halaman · 4 Modul
+            </div>
+            <h3>Sosmedpreneur: Blueprint dari Content Berujung Cuan</h3>
+            <p class="desc">
+              Bukan sekadar panduan main sosmed biasa. Ini blueprint lengkap
+              ngubah hobi scroll HP jadi mesin uang — dari milih niche, bangun
+              akun, bikin konten viral, sampai closing penjualan.
+            </p>
+            <div class="file-meta">
+              <div class="meta-tag">
+                <span class="mt-icon">📄</span> 78 Halaman
+              </div>
+              <div class="meta-tag">
+                <span class="mt-icon">📚</span> 4 Modul Utama
+              </div>
+              <div class="meta-tag">
+                <span class="mt-icon">🎯</span> ACE Strategy 2025
+              </div>
+            </div>
+            <ul class="file-bullets">
+              <li>
+                <div class="chk pu">✓</div>
+                <span
+                  ><strong>Modul 01 — Niche:</strong> Formula "Golden Spot" —
+                  nemuin irisan passion, market gede, dan peluang bisnis</span
+                >
+              </li>
+              <li>
+                <div class="chk pu">✓</div>
+                <span
+                  ><strong>Modul 02 — Akun:</strong> Bangun akun dari nol, nama
+                  & bio yang bikin orang auto-follow dan percaya</span
+                >
+              </li>
+              <li>
+                <div class="chk pu">✓</div>
+                <span
+                  ><strong>Modul 03 — Konten:</strong> The ACE Strategy 2025 —
+                  Awareness → Consideration → Conversion yang beneran
+                  convert</span
+                >
+              </li>
+              <li>
+                <div class="chk pu">✓</div>
+                <span
+                  ><strong>Modul 04 — Monetisasi:</strong> Affiliate
+                  storytelling smooth + cara bikin produk digital sendiri untuk
+                  profit 100%</span
+                >
+              </li>
+              <li>
+                <div class="chk green">✓</div>
+                <span
+                  ><strong>BONUS:</strong> Undangan komunitas eksklusif Discord
+                  untuk diskusi & mentoring langsung!</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FILE 2: UNLOCK AI -->
+        <div class="file-card reveal">
+          <div class="file-visual fv-orange">
+            <!-- Ganti: <img src="cover-unlock-ai.jpg" style="width:100%;height:100%;object-fit:cover"> -->
+            <div class="fv-num">File 02</div>
+            <div class="fv-icon">🤖</div>
+            <div class="fv-title">Unlock AI For Creators</div>
+          </div>
+          <div class="file-info">
+            <div class="file-num-badge">
+              Cheat Code AI · 24 Halaman · 4 Modul + Mindset
+            </div>
+            <h3>
+              Unlock AI For Creators: Kerja Kayak Korporat, Sendirian dari Kamar
+            </h3>
+            <p class="desc">
+              File kedua ini adalah cheat code biar kamu bisa kerja kayak tim
+              besar sendirian. Hemat budget gaji 3 admin sekaligus — semua
+              digantiin AI yang kerja 24/7 nggak pernah capek.
+            </p>
+            <div class="file-meta">
+              <div class="meta-tag">
+                <span class="mt-icon">📄</span> 24 Halaman
+              </div>
+              <div class="meta-tag">
+                <span class="mt-icon">🤖</span> 4 Modul AI
+              </div>
+              <div class="meta-tag">
+                <span class="mt-icon">⚡</span> Tutorial Praktis
+              </div>
+            </div>
+            <ul class="file-bullets">
+              <li>
+                <div class="chk or">✓</div>
+                <span
+                  ><strong>Mindset Awal:</strong> Kenapa harus pakai AI
+                  sekarang? Creator yang nggak pakai AI bakal ketinggalan
+                  jauh</span
+                >
+              </li>
+              <li>
+                <div class="chk or">✓</div>
+                <span
+                  ><strong>Modul 1 — Konten Otomatis:</strong> Prompting ke
+                  ChatGPT & Deepseek layaknya profesional — script, caption,
+                  carousel selesai dalam menit</span
+                >
+              </li>
+              <li>
+                <div class="chk or">✓</div>
+                <span
+                  ><strong>Modul 2 — Desain Visual:</strong> Bikin gambar
+                  estetik pakai Microsoft Designer, video cinematic pakai Kling
+                  AI & Sora AI</span
+                >
+              </li>
+              <li>
+                <div class="chk or">✓</div>
+                <span
+                  ><strong>Modul 3 — Audio & Video:</strong> Voice-over natural
+                  pakai ElevenLabs, bikin lagu & jingle konten pakai Suno
+                  AI</span
+                >
+              </li>
+              <li>
+                <div class="chk green">✓</div>
+                <span
+                  ><strong>Modul 4 — AUTO CLOSING (yang paling gila!):</strong>
+                  Sistem Autopilot balas komentar & DM Instagram otomatis 24/7 —
+                  kamu tidur, sistem yang jualan</span
+                >
+              </li>
+            </ul>
+            <div class="file-bonus-tag">
+              🤖 Hemat budget gaji 3 admin sekaligus!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ AI FEATURES ═══ -->
+    <section class="ai-features">
+      <div class="ai-bg"></div>
+      <div class="ai-glow"></div>
+      <div class="ai-inner">
+        <div class="section-label reveal">Tools AI yang Diajarkan</div>
+        <h2 class="section-h2 reveal">Armada AI Pribadi Kamu</h2>
+        <p class="section-sub reveal">
+          Semua tools ini diajarkan step-by-step di dalam ebook. Dari yang
+          gratis sampai yang pro — semuanya bisa kamu pakai mulai hari ini.
+        </p>
+        <div class="ai-grid">
+          <div class="ai-card reveal">
+            <span class="ai-card-icon">✍️</span>
+            <h4>Pabrik Konten Otomatis</h4>
+            <p>
+              Prompt profesional ke AI buat generate script, caption, dan
+              struktur carousel yang tajam dan daging.
+            </p>
+            <div class="tool-tags">
+              <span class="tool-tag">ChatGPT</span>
+              <span class="tool-tag">Deepseek</span>
+            </div>
+          </div>
+          <div class="ai-card reveal">
+            <span class="ai-card-icon">🎨</span>
+            <h4>Desain Visual Ala Studio</h4>
+            <p>
+              Bikin gambar estetik dan video cinematic yang realistis tanpa
+              skill desain, selesai dalam hitungan menit.
+            </p>
+            <div class="tool-tags">
+              <span class="tool-tag">Microsoft Designer</span>
+              <span class="tool-tag">Kling AI</span>
+              <span class="tool-tag">Sora AI</span>
+            </div>
+          </div>
+          <div class="ai-card reveal">
+            <span class="ai-card-icon">🎙️</span>
+            <h4>Audio & Musik Otomatis</h4>
+            <p>
+              Voice-over natural tanpa dubbing sendiri, plus bikin jingle &
+              musik latar khusus konten kamu.
+            </p>
+            <div class="tool-tags">
+              <span class="tool-tag">ElevenLabs</span>
+              <span class="tool-tag">Suno AI</span>
+            </div>
+          </div>
+          <div class="ai-card reveal">
+            <span class="ai-card-icon">🤖</span>
+            <h4>Auto-Engage & Auto-Closing</h4>
+            <p>
+              Sistem Autopilot yang balas komentar dan DM Instagram 24/7 —
+              ngarahin calon pembeli buat beli otomatis.
+            </p>
+            <div class="tool-tags">
+              <span class="tool-tag">Instagram Autopilot</span>
+              <span class="tool-tag">Auto DM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ BONUS ═══ -->
+    <section class="bonus-section">
+      <div class="section-label center reveal">Bonus Eksklusif</div>
+      <h2 class="section-h2 center reveal" style="margin-bottom: 36px">
+        3 Bonus yang Bikin<br />Nilai Bundle Ini Berlipat Ganda
+      </h2>
+      <div class="bonus-grid">
+        <div class="bonus-card reveal">
+          <span class="b-icon">✨</span>
+          <div class="b-tag">BONUS 1</div>
+          <div class="b-title">Magic Prompt Collection</div>
+          <p class="b-desc">
+            Koleksi prompt AI siap pakai yang udah terbukti menghasilkan konten
+            berkualitas tinggi. Tinggal copy-paste, edit dikit, langsung post.
+          </p>
+          <div class="b-val">Gratis 🎉</div>
+        </div>
+        <div class="bonus-card reveal">
+          <span class="b-icon">🎨</span>
+          <div class="b-tag">BONUS 2</div>
+          <div class="b-title">Template Feed Instagram</div>
+          <p class="b-desc">
+            Template desain feed Instagram yang aesthetic dan konsisten. Tinggal
+            ganti foto & teks, feed kamu langsung terlihat profesional.
+          </p>
+          <div class="b-val">Gratis 🎉</div>
+        </div>
+        <div class="bonus-card reveal">
+          <span class="b-icon">👑</span>
+          <div class="b-tag">BONUS 3</div>
+          <div class="b-title">
+            Engage 2025: Social Media Domination Playbook
+          </div>
+          <p class="b-desc">
+            Panduan lengkap mendominasi sosmed di 2025 — algoritma terbaru,
+            taktik engagement, dan strategi growth hacking yang terbukti.
+          </p>
+          <div class="b-val">Gratis 🎉</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ TESTIMONIALS ═══ -->
+    <section class="testi">
+      <div class="section-label center reveal">Testimoni Nyata</div>
+      <h2 class="section-h2 center reveal" style="margin-bottom: 8px">
+        Yang Udah Pakai AI<br />Nggak Mau Balik Lagi ke Manual
+      </h2>
+      <p class="section-sub center reveal" style="margin-bottom: 44px">
+        Ini cerita nyata dari mereka yang udah merasakan bedanya.
+      </p>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="t-ss"></div>
+          <div class="t-stars">★★★★★</div>
+          <div class="t-tag">Unlock AI For Creators</div>
+          <p class="t-text">
+            "Serius, modul Auto Closing-nya itu gila banget. Gw lagi liburan,
+            pulang-pulang ada 4 notif 'Pembayaran Berhasil'. AI yang jualan, gw
+            yang dapetin uangnya. 🤯"
+          </p>
+          <div class="t-author">
+            <div class="t-av" style="background: #7b2fff">AR</div>
+            <div>
+              <div class="t-name">Aldi Ramadhan</div>
+              <div class="t-role">Digital Creator · Jakarta</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="t-ss"></div>
+          <div class="t-stars">★★★★★</div>
+          <div class="t-tag">Sosmedpreneur</div>
+          <p class="t-text">
+            "Formula Golden Spot Niche-nya beneran works! Sebelumnya gw random
+            posting, sekarang punya niche yang jelas dan followers tumbuh 2x
+            lebih cepet."
+          </p>
+          <div class="t-author">
+            <div class="t-av" style="background: #9b5fff">FD</div>
+            <div>
+              <div class="t-name">Fika Dewi</div>
+              <div class="t-role">Content Creator · Bandung</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="t-ss"></div>
+          <div class="t-stars">★★★★★</div>
+          <div class="t-tag">Bundle Lengkap</div>
+          <p class="t-text">
+            "Dulu bikin 1 konten bisa 4–5 jam. Sekarang pakai AI dari modul ini,
+            1 jam bisa bikin 5 konten sekaligus. Ini beneran game changer!"
+          </p>
+          <div class="t-author">
+            <div class="t-av" style="background: #ff5c00">NR</div>
+            <div>
+              <div class="t-name">Nadia Rizki</div>
+              <div class="t-role">Freelance Marketer · Surabaya</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ VALUE SUMMARY ═══ -->
+    <section class="summary">
+      <div class="summary-bg"></div>
+      <div class="summary-inner">
+        <h2 class="reveal">Semua yang Kamu Dapat</h2>
+        <div class="sum-list">
+          <div class="sl reveal">
+            <div class="sl-icon">📱</div>
+            <div class="sl-text">
+              <div class="sl-title">Sosmedpreneur Blueprint (78 Halaman)</div>
+              <div class="sl-sub">
+                4 Modul + strategi ACE 2025 + komunitas Discord
+              </div>
+            </div>
+            <div class="sl-val">Rp 149.000</div>
+          </div>
+          <div class="sl reveal">
+            <div class="sl-icon">🤖</div>
+            <div class="sl-text">
+              <div class="sl-title">Unlock AI For Creators (24 Halaman)</div>
+              <div class="sl-sub">4 Modul AI + sistem auto closing 24/7</div>
+            </div>
+            <div class="sl-val">Rp 149.000</div>
+          </div>
+          <div class="sl reveal">
+            <div class="sl-icon">✨</div>
+            <div class="sl-text">
+              <div class="sl-title">Magic Prompt Collection</div>
+              <div class="sl-sub">Prompt AI siap pakai untuk konten harian</div>
+            </div>
+            <div class="sl-val free">GRATIS</div>
+          </div>
+          <div class="sl reveal">
+            <div class="sl-icon">🎨</div>
+            <div class="sl-text">
+              <div class="sl-title">Template Feed Instagram</div>
+              <div class="sl-sub">Desain aesthetic siap edit & post</div>
+            </div>
+            <div class="sl-val free">GRATIS</div>
+          </div>
+          <div class="sl reveal">
+            <div class="sl-icon">👑</div>
+            <div class="sl-text">
+              <div class="sl-title">
+                Engage 2025: Social Media Domination Playbook
+              </div>
+              <div class="sl-sub">Strategi growth & algoritma terbaru 2025</div>
+            </div>
+            <div class="sl-val free">GRATIS</div>
+          </div>
+        </div>
+        <div class="sum-total reveal">
+          <div>
+            <div class="st-lbl">Total nilai:</div>
+            <div class="st-old">Rp 499.000</div>
+          </div>
+          <div style="text-align: center">
+            <div
+              style="
+                font-size: 0.78rem;
+                color: rgba(255, 255, 255, 0.45);
+                margin-bottom: 4px;
+              "
+            >
+              Harga Spesial
+            </div>
+            <div class="st-price">Rp 149.000</div>
+          </div>
+          <div class="st-save-tag">🎉 Hemat Rp 219.000</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ BIG CTA ═══ -->
+    <section class="big-cta" id="beli">
+      <div class="section-label">🤖 Jangan Ketinggalan AI</div>
+      <h2>Yakin Mau Nunda dan<br />Keduluan Creator Lain?</h2>
+      <p>
+        Yang pakai AI udah 10x lebih produktif. Kamu masih mau kerja manual?
+      </p>
+      <div style="position: relative">
+        <div class="scarcity">
+          ⚡ Tersisa <strong style="margin: 0 5px">31 slot</strong> dengan harga
+          ini
+        </div>
+        <br />
+        <div class="timer-wrap">
+          <div class="t-unit">
+            <div class="t-num" id="h">00</div>
+            <div class="t-lbl">Jam</div>
+          </div>
+          <div class="t-sep">:</div>
+          <div class="t-unit">
+            <div class="t-num" id="m">00</div>
+            <div class="t-lbl">Menit</div>
+          </div>
+          <div class="t-sep">:</div>
+          <div class="t-unit">
+            <div class="t-num" id="s">00</div>
+            <div class="t-lbl">Detik</div>
+          </div>
+        </div>
+        <br />
+        <div class="cta-price">
+          <div class="cp-old">Rp 499.000</div>
+          <div class="cp-new">Rp 149.000</div>
+          <div class="cp-save">Hemat 73% — Hari Ini Saja!</div>
+        </div>
+        <a href="https://faset-digital.myr.id/pl/master-sosmed-ai-jadikan-ai-sebagai-sumber-cuan-2026" class="btn-big">🚀 Beli Sekarang — Rp 149.000</a>
+        <span class="btn-note"
+          >✓ Akses instan · ✓ 2 ebook + 3 bonus · ✓ Garansi uang kembali 30
+          hari</span
+        >
+      </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section class="faq">
+      <h2>Pertanyaan yang Sering Ditanyakan</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">
+            Apakah tools AI-nya berbayar? <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Sebagian besar tools yang diajarkan punya versi gratis yang sudah
+              cukup powerful. Di dalam ebook dijelaskan cara memaksimalkan versi
+              gratis. Beberapa tools premium juga diajarkan untuk kamu yang mau
+              upgrade.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            Sistem Auto Closing-nya pakai aplikasi apa?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Diajarkan menggunakan tools otomatisasi yang terintegrasi dengan
+              Instagram. Step-by-step tutorial lengkap ada di Modul 4 Unlock AI
+              For Creators termasuk cara setup dari nol.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            Cocok untuk yang followers-nya masih sedikit?
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Justru ini yang paling cocok! Sosmedpreneur Blueprint mengajarkan
+              cara bangun akun dari nol dengan strategi yang benar sejak awal.
+              Jauh lebih efektif daripada yang udah punya followers tapi
+              strategi salah.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            Apakah bisa diakses di HP? <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Ya! Format PDF bisa dibaca di HP, tablet, atau laptop. Bahkan
+              lebih enak dibaca di HP karena kamu bisa langsung praktek di
+              aplikasi yang sama.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            Komunitas Discord-nya aktif? <span class="icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>
+              Sangat aktif! Kamu bisa diskusi, tanya jawab langsung, dan dapat
+              mentoring dari sesama member yang sudah lebih dulu sukses.
+              Networking-nya juga valuable banget untuk bisnis kamu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-brand">Master<span>Sosmedpreneur</span></div>
+      <p>© 2026 Faset Digital. All rights reserved.</p>
+      <p style="margin-top: 10px">
+        <a href="#">Syarat & Ketentuan</a>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Hubungi Kami</a>
+      </p>
+    </footer>
+    <script src="/master-ai/script.js"></script>
+  </body>
+</html>
